@@ -4,6 +4,7 @@ function main() {
   const canvas = document.querySelector('#c');
   const renderer = new THREE.WebGLRenderer({ canvas });
 
+  const somevar = 2;
   const fov = 40;
   const aspect = 2;
   const near = 0.1;
